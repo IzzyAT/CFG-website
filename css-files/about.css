@@ -3,9 +3,12 @@ body {
 }
 
 h1 {
-  font-size: 50px;
-  padding: 10px;
-
+  font-size: 70px;
+  padding: 30px;
+  background-image: url("https://www.vogue.com/article/vietnamese-food-guide-dishes");
+  font-family: 'Sigmar One', cursive;
+  position: relative;
+  top: 50px;
 }
 
 h3 {
@@ -13,35 +16,42 @@ h3 {
 }
 h2 {
   font-size: 50px;
+  font-family: 'Sigmar One', cursive;
 }
 
 li {
   font-size: 20px;
 }
-
+ ul {
+   background: #E2E5E7;
+   color: grey;
+   /*position: absolute;
+    left: 100px;
+    top: 150px;*/
+ }
 .morning {
   background: #2BEAC5;
   color: #333938;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   border: 10px solid white;
 }
 
 .afternoon {
   background: #3DB29B;
-  color: white;
-  padding: 25px;
+  color: #C2CBC9;
+  padding: 0px 25px 25px 25px;
   border: 10px solid white;
 }
 
 .evening {
   background: #3E8879;
   color: white;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   border: 10px solid white;
 }
 
 .navigation {
-  position:position: absolute;
-    top: 40px; left: 40px;
   background: #E2E5E7;
+  position: absolute;
+    top:10px; right: 20px; left: 15px;
 }
