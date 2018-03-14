@@ -45,7 +45,28 @@ li {
   color: #333938;
   padding: 0px 25px 25px 25px;
   border: 10px solid white;
+}
 
+.morning img {
+  height: 300px;
+  padding-top: 40px;
+}
+
+.afternoon img {
+  height: 300px;
+  padding-top: 40px;
+}
+
+.evening img {
+  height: 300px;
+}
+.half-screen {
+  width: 40%;
+  margin-right: 0px;
+}
+
+.right{
+  float: right;
 }
 
 
