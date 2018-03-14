@@ -65,10 +65,12 @@ li {
   margin-right: 0px;
 }
 
-.right{
+.right {
   float: right;
 }
-
+.ul {
+  border-radius: 20px;
+}
 
 .afternoon {
   background: #3DB29B;
