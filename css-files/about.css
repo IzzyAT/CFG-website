@@ -1,6 +1,12 @@
 body {
   font-family: 'Crimson Text', serif;
+  position: relative;
 }
+
+.introd {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  }
 
 h1 {
   font-size: 70px;
@@ -29,12 +35,19 @@ li {
     left: 100px;
     top: 150px;*/
  }
+
+ .pagewrap {
+   margin: 0px auto;
+ }
+
 .morning {
   background: #2BEAC5;
   color: #333938;
   padding: 0px 25px 25px 25px;
   border: 10px solid white;
+
 }
+
 
 .afternoon {
   background: #3DB29B;
@@ -53,5 +66,5 @@ li {
 .navigation {
   background: #E2E5E7;
   position: absolute;
-    top:10px; right: 20px; left: 15px;
+    top:0px; right: 20px; left: 15px;
 }
